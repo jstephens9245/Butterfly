@@ -3,15 +3,11 @@ import {connect} from 'react-redux';
 import { browserHistory } from 'react-router';
 import Navbar from '../components/Navbar';
 
-// import { logoutUser } from '../actions/user';
 import { toggleClick } from '../actions/navbar';
 import isEmpty from 'lodash/isEmpty';
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    // user         : state.userReducer.loggedInUser,
-    // board        : state.board.selectedBoard,
-    // location     : ownProps.location.pathname,
   };
 };
 
@@ -66,14 +62,6 @@ class NB extends Component {
         aria={this.state.aria}
         expandNav={this.expandNav}
         navClass={this.state.toggleClass}
-        // titleClass={this.state.toggleTitle}
-        // user={this.props.user}
-        // logoutUser={this.props.logoutUser}
-        // toggleSidebar={this.props.toggleSidebar}
-        // board={this.props.board}
-        // location={this.props.location}
-        // newPage={this.newPage}
-        // numOfUnread={this.props.numOfUnread}
       />
     );
   }
