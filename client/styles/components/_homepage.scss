@@ -7,9 +7,9 @@ $light-gray: #7e8890;
   font-family: "Open Sans", sans-serif;
 }
 
-.homepage-main-image-container {
-  position: relative;
-}
+// .homepage-main-image-container {
+//   position: relative;
+// }
 
 .homepage-main-image {
   width: 100vw;
@@ -247,14 +247,16 @@ button:focus {
     color: $dark-gray;
     display: flex;
     flex-direction: row;
-    min-height: 60rem;
+    min-height: 30%;
   }
 
   .left-desc {
-    width: 50%;
+    width: 80%;
+    margin: auto;
     padding: 2em 5em;
     line-height: 3em;
-    height: 28.8rem;
+    // height: 28.8rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,39 +264,41 @@ button:focus {
   }
 
   .left-desc-title{
-    text-align:left;
-    font-weight: 300;
-    font-size:2rem;
+    // text-align:left;
+    // font-weight: 300;
+    font-size:6rem;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
   }
 
   .left-desc-content{
     width: 100%;
-    text-align: left;
+    // text-align: left;
     font-weight: 300;
     color: $light-gray;
-    font-size: 1.5rem;
+    font-size: 2.8rem;
   }
 
-  .right-desc {
-    width: 50%;
-    padding: 2em 5em;
-  }
-
-  .right-desc-img{
-    width: 100%;
-  }
+  // .right-desc {
+  //   width: 50%;
+  //   padding: 2em 5em;
+  // }
+  //
+  // .right-desc-img{
+  //   width: 100%;
+  // }
 
   .team-desc {
     display: block;
-    position: fixed;
+    // position: fixed;
     bottom: 0%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: #ff879b;
     color: #fff;
-    font-weight: 300;
+    // font-weight: 300;
     text-align: center;
-    height: 4em;
-    line-height: 4em;
+    height: 2em;
+    line-height: 2em;
     letter-spacing: 0.2rem;
 }
 
@@ -302,10 +306,10 @@ button:focus {
 
 @media screen and (min-device-width: 1024px) {
 
-  .homepage-main-image {
-
-    margin: -11rem 0 -10rem 0;
-  }
+  // .homepage-main-image {
+  //
+  //   margin: -11rem 0 -10rem 0;
+  // }
 
   .main-slogan {
     top: 30%;
@@ -328,9 +332,9 @@ button:focus {
     font-size: 2.5rem;
   }
 
-  .left-desc {
-    height: 40rem;
-  }
+  // .left-desc {
+  //   height: 40rem;
+  // }
 
   .border-line {
     margin-top: 15rem;
@@ -351,4 +355,3 @@ button:focus {
 
 
 }
-

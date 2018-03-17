@@ -6,21 +6,14 @@ import {Route, IndexRoute, Router, browserHistory} from 'react-router';
 import HomepageContainer from './containers/HomepageContainer';
 
 //action-creators
-import {checkLoginStatus} from './actions/user';
 
 //components
 import Index from './components/Index';
 
-
-//onEnters
-function indexEnter() {
-  store.dispatch(checkLoginStatus());
-}
-
 export default function Routes() {
   return (
     <Router history={browserHistory}>
-      <Route path="/" component={Index} onEnter={indexEnter}>
+      <Route path="/" component={Index}>
        <IndexRoute component={HomepageContainer} />
      </Route>
     </Router>

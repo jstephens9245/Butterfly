@@ -66,14 +66,14 @@ class NB extends Component {
         aria={this.state.aria}
         expandNav={this.expandNav}
         navClass={this.state.toggleClass}
-        titleClass={this.state.toggleTitle}
-        user={this.props.user}
-        logoutUser={this.props.logoutUser}
-        toggleSidebar={this.props.toggleSidebar}
-        board={this.props.board}
-        location={this.props.location}
-        newPage={this.newPage}
-        numOfUnread={this.props.numOfUnread}
+        // titleClass={this.state.toggleTitle}
+        // user={this.props.user}
+        // logoutUser={this.props.logoutUser}
+        // toggleSidebar={this.props.toggleSidebar}
+        // board={this.props.board}
+        // location={this.props.location}
+        // newPage={this.newPage}
+        // numOfUnread={this.props.numOfUnread}
       />
     );
   }
